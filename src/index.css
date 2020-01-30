@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main-div {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(151, 151, 185);
+  color: white;
+
+}
+.aside-div {
+  width: 10%;
+}
+.nav-div {
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  
+}
+
+
+.nav-linkDiv-div{
+  
+  width:100%;
+  height:100px;
+  background-color: #1B262B;
+  color: rgb(151, 148, 148);
+  border:1px solid rgb(77, 95, 104);
+  text-align: center;
+  line-height: 6rem;
+  font-size: 17px;
+
+}
+.nav-photo-div {
+  width:100%;
+  height:80px;
+  background-color: rgb(131, 133,  63);
+  border:1px solid rgb(77, 95, 104);
+}
+.contact {
+  width: 100%;
+}
+
+.nav-footer-div {
+  width:100%;
+  height:120px;
+  background-color: #1B262B;
+  color: white;
+  border:1px solid rgb(77, 95, 104);
+  text-align: center;
+  line-height: 5rem;
+}
+.nav-photo-div {
+  width:100%;
+  height:190px;
+  background-color: #1B262B;
+  color: white;
+  border:1px solid rgb(77, 95, 104);
+  text-align: center;
+  line-height: 5rem;
+}
+
+.about_me {
+  width: 92%;
+  background-color: rgb(160, 111, 111);
+}
+
+.home-div {
+  width: 92%;
+  background-color: rgb(82, 76, 76);
+} 
+
+.contact {
+  width: 92%;
+  background-color: rgb(128, 118, 71);
+}
+.experience {
+  width: 92%;
+  background-color: rgb(61, 100, 82);
+}
+
+.find_me {
+  width: 92%;
+  background-color: rgb(55, 47, 100);
+}
+a {
+  text-decoration: none;
+ 
+}
+
+.nav-photo-div img {
+  width: 100%;
+  height: 100%;
+}
+.nav-linkDiv-div {
+  transition: color 400ms;
+}
+.nav-linkDiv-div:hover {
+  color: white;
+}
